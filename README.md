@@ -1,16 +1,67 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Ai-tool-integration-assignment
 
-Currently, two official plugins are available:
+This project focuses on UI structure, navigation, and integration, not internal tool logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Demo
+https://github.com/user-attachments/assets/3c2e65f6-39f0-4678-bfe3-d629c049b89d
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+### Unified Layout System
+##### The application uses a shared layout containing:
+- Fixed Header (branding, search bar, sign-in button)
+- Sidebar Navigation (links to AI tools & resources)
+- Main Content Area powered by React Router's <Outlet />
 
-## Expanding the ESLint configuration
+### Ai Tool Integration
+##### All three Biolyt AI tools are accessible through the sidebar:
+- Biolyt AI Chat
+- Biolyt Forecast 
+- Biolyt AI Assistant
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Project purpose
+The main task was to integrate three AI tools into a single interface, not to build their internal functionality.
+
+Therefore:
+
+- No dashboards or internal app logic were required
+- Focus was on Tool integration
+- Navigation uses <a> redirects as per requirement
+## Tech Stack
+
+- React
+- TailwindCSS 
+- Lucide-react-icons
+
+
+
+
+## Run Locally
+
+### Clone the project
+
+```bash
+  git clone https://github.com/vaib65/ai-tool-integration-assignment 
+```
+ 
+ ### Navigate into project directory
+ ```
+ cd tool-integration-assignment
+
+ ```
+
+### Install dependencies
+
+```
+  npm install
+```
+
+Start the server
+
+```
+  npm run dev
+```
+
