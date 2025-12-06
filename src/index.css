@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+     @apply bg-linear-to-bl from-indigo-100 via-white to-blue-100 min-h-screen;
+  
+}
